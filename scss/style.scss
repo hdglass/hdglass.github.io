@@ -1,0 +1,113 @@
+$main-dark: #100221;
+$main-light: #FFFDA5;
+$main-dark-alt: #000;
+$font-color: #999;
+
+
+
+body {
+  background: $main-dark;
+  color: $font-color;
+}
+
+a {
+  color: $main-light;
+}
+
+.project-bg {
+  background: black;
+
+  .container.pt-4 {
+  margin-top: 6em;
+  padding-bottom: 5em;
+
+    .flex-btn {
+      display: flex;
+      justify-content: center;
+      padding-top: 4em;
+
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $main-dark;
+      background: $main-light;
+      width: 50%;
+      }
+    }
+  }
+}
+
+.navbar-link {
+  color: black;
+}
+.card {
+  background: $main-dark;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 1em;
+}
+
+.btn {
+  border-color: $main-light;
+  background-color: $main-light;
+  color: $main-dark-alt;
+}
+
+.btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    background-color: $main-light;
+    background-image: none;
+    border-color: $main-light;
+}
+
+.btn-primary:hover {
+    border-color: $main-light;
+    background-color: $main-light;
+    border-color: $main-light;
+}
+
+.btn.active, .btn:active {
+    background-image: none;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: $main-light;
+    text-decoration: underline;
+}
+
+
+.jumbotron {
+  background: $main-dark url("../img/nmJumbo2.jpg") no-repeat center bottom;
+  height: 100%;
+  background-size: auto;
+  overflow: hidden;
+}
+
+.navFooter {
+  color: white;
+  background: $main-dark;
+}
+
+.navbar-toggler {
+  background: white;
+  color: white;
+}
+
+
+
+.profile {
+  border-radius: 5em;
+  position: relative;
+}
+
+.titleColor {
+  color: $main-light;
+}
+
+.titleColor1 {
+  color: white;
+}
