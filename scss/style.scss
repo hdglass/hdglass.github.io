@@ -1,9 +1,29 @@
-$main-dark: #100221;
-$main-light: #FFFDA5;
+$main-dark: #3D4457;
+$main-light: #FFF;
 $main-dark-alt: #000;
+
 $font-color: #999;
+$font-1: 'Questrial', sans-serif;
 
+.img-space {
+  padding-top: 2em;
+}
 
+#about {
+  text-align: center;
+
+  h1, h2 {
+    font-family: $font-1;
+  }
+}
+
+#projects {
+  text-align: center;
+
+  h1, h2 {
+    font-family: $font-1;
+  }
+}
 
 body {
   background: $main-dark;
@@ -15,7 +35,7 @@ a {
 }
 
 .project-bg {
-  background: black;
+  background: $main-dark-alt;
 
   .container.pt-4 {
   margin-top: 6em;
@@ -41,6 +61,7 @@ a {
 .navbar-link {
   color: black;
 }
+
 .card {
   background: $main-dark;
   margin: 0 auto;
@@ -81,10 +102,13 @@ a:hover {
 
 
 .jumbotron {
-  background: $main-dark url("../img/nmJumbo2.jpg") no-repeat center bottom;
+  background: $main-dark url("../img/profile2.jpg") no-repeat 50% 10%;
   height: 100%;
   background-size: auto;
   overflow: hidden;
+  font-family: $font-1;
+  box-shadow:inset 0 0 600px 75px rgba(0,0,0,1);
+  padding-top: 20%;
 }
 
 .navFooter {
@@ -97,7 +121,16 @@ a:hover {
   color: white;
 }
 
+.navbar-brand {
+  font-family: $font-1;
+  img {
+  margin-right: 1em;
+  }
+}
 
+.navbar-nav {
+  font-family: $font-1;
+}
 
 .profile {
   border-radius: 5em;
